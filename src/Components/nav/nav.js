@@ -2,7 +2,7 @@
  * Created by Administrator on 2017/7/4.
  */
 import React from 'react';
-import {Flex,WhiteSpace,NavBar,Icon} from 'antd-mobile';
+import {Flex} from 'antd-mobile';
 import icon from '../../images/nav_menu.png';
 import './nav.css';
 import icon_right from '../../images/nav_user.png';

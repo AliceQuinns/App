@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Apps from './Components/app/App';
+import Apps from './components/app/App';
 import 'animate.css';
 import {BrowserRouter as Router,Route} from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
