@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Apps from './components/app/App';
+import App from './components/app/app';
+import {BrowserRouter,Route} from 'react-router-dom';
 import 'animate.css';
-import {BrowserRouter as Router,Route} from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 
-const App = () => (
-    <Router>
-        <Route path='/' component={Apps}/>
-    </Router>
+const Index = () => (
+    <BrowserRouter>
+      <div>
+        <Route component={App}/>
+      </div>
+    </BrowserRouter>
 )
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render(<Index/>, document.getElementById('root'));
 registerServiceWorker();

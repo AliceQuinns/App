@@ -1,14 +1,19 @@
 import React from 'react';
-import './app.css'
-import Nav from '../nav/nav';
-import {BrowserRouter as Router,Route} from 'react-router-dom';
+import {BrowserRouter,Route} from 'react-router-dom';
+import Nav from './nav/nav';
+import Footer from './footer/footer';
+import Drawer from './Drawer/Drawer';
 
 class App extends React.Component {
   render() {
     return (
-        <Router>
-          <Route path='/' component={Nav}/>
-        </Router>
+        <BrowserRouter>
+          <div>
+            <Route component={Nav}/>
+            <Route component={Drawer}/>
+            <Route component={Footer}/>
+          </div>
+        </BrowserRouter>
     );
   }
 }

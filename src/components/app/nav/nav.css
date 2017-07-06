@@ -4,7 +4,7 @@
   position: fixed;
   background-color: rgba(255, 255, 255, 0.61);
   box-shadow: 0px 5px 20px 0px #e6e6e6;
-  z-index: 9999; }
+  z-index: 999; }
   .nav .textRight {
     text-align: right; }
   .nav .icon-left {
@@ -13,7 +13,7 @@
     max-height: 18px; }
   .nav .icon-right {
     width: 21px;
-    height: 20px;
+    height: 22px;
     margin: 1em;
       margin-top: 12px; }
   .nav .title {
