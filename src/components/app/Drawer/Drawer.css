@@ -1,6 +1,38 @@
-.men {
-  width: 80%;
+.Drawermenu {
+  width: 100%;
   background-color: #fff;
-  height: 100%; }
+  height: 100%;
+  margin-right: 4em;
+  transition: display; }
+  .Drawermenu .HeadPortrait {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 2em 1em;
+    border: 1px solid #ffffff;
+      border-radius: 50%; }
+  .Drawermenu .username {
+    font-size: 18px;
+    max-width: 15em;
+    font-weight: 600;
+    word-wrap: inherit; }
+  .Drawermenu .menu_ul {
+    border-left: 3px solid #5fe2a8;
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column; }
+    .Drawermenu .menu_ul li {
+      margin: 10px 0px;
+      list-style-type: none;
+      display: flex; }
+      .Drawermenu .menu_ul li img {
+        width: 22px;
+        height: 20px;
+        margin: 0 20px; }
+      .Drawermenu .menu_ul li span {
+        color: #333;
+        font-size: 14px;
+        align-self: center;
+        margin: 3px 20px 20px 10px; }
 
 /*# sourceMappingURL=Drawer.css.map */
